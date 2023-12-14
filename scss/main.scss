@@ -131,32 +131,27 @@ sector portafolio---------------------------------------------------------------
    padding-right: 100%; 
 }
 
-/*-----------------CONTACTANOS----------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
-/*------seccion formulario parte contactanos--------------------*/
+/*----------formulario para contactarse -------------------------------------------------------*/
+/*------seccion formulario-------------*/
 
 
-#seccion-encuentro {
+/*#seccion-encuentro {
     background-color: white;
     position: relative;
-}
+}*/
 
 
-/*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
-/*#seccion-encuentro {
-    margin-top: none;
-    background-color: rgb(6, 112, 199);
-    background: #fbfafa;
-    border-radius: 5px;
-    max-width: 500px;
-   estees el de sass }*/
+/*--------------------------------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
+
 /*---------------- --------------------aplicando animacion para resaltar formulario---sector index------------------------------------------------------------------*/
 
-#seccion-encuentro {
+
+#seccion-contacto {
     background-color: white;
     position: relative;
 }
 
-#contenedor-contacto {
+#seccion-contacto {
     margin-top: none;
     background-color: rgb(6, 112, 199);
     background: #fbfafa;
@@ -165,13 +160,12 @@ sector portafolio---------------------------------------------------------------
     margin: 0 auto;
 }
 
-#contenedor-formulario {
+#seccion-contacto {
 transform: scale(1, 1);}
 
-#contenedor-formulario:hover {
+#seccion-contacto:hover {
     transform: scale(2);
 }
-
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------
@@ -223,7 +217,7 @@ transform: scale(1, 1);}
 
 
 
--------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------*/
 
 /* ---------------------------------------------------------------------------------------------------------*/
  /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
