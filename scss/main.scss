@@ -58,22 +58,21 @@ padding-top: 20px;
 
 
 /*---------------------------PARA LOS NUMEROS DE TEMP/GRADOS/DIAS DE CALOR----------------------------------------*/
+/*id*/
 #numeros-local div {
     padding: 0 20px 0 0;
     height: 48px;
 }
 
-p { div:not(:last-child){
+#numeros-local div:not(:last-child){
     border-left: 2px solid #3f3f3f;
 }
-}
     
-p {div:not(:first-child){
+#numeros-local div:not(:first-child){
     padding-left: 20px;
 }
-} 
 
- p {
+#numeros-local p {
     margin: 0;
 }
 
@@ -97,6 +96,7 @@ p {div:not(:first-child){
     background: #fbfafa;
     border-radius: 5px;
     max-width:500px;
+
 }
 
 /*-----------------------------------------------PIE DE LA PAGINA----------------------------------------------------*/
@@ -105,7 +105,7 @@ footer {
     min-height: 200px;
 }
 
-p {
+footer p {
     color: #f3f3f3;
     text-align: center;
 }
@@ -120,14 +120,16 @@ p {
 sector portafolio----------------------------------------------------------------------------
 ------------------------------PORTAFOLIO BARRA- ESTILOS ----------------------------*/
 .portafolioBarra {
-     
-    color: #3f3f3f;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    padding-right: 100%; 
+    /*class*/ 
+   color: #3f3f3f;
 }
 
+.portafolioBarra {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 28px;
+   font-weight: bold;
+   padding-right: 100%; 
+}
 
 /*-----------------CONTACTANOS----------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
 /*------seccion formulario parte contactanos--------------------*/
@@ -140,19 +142,88 @@ sector portafolio---------------------------------------------------------------
 
 
 /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
-#seccion-encuentro {
+/*#seccion-encuentro {
     margin-top: none;
     background-color: rgb(6, 112, 199);
     background: #fbfafa;
     border-radius: 5px;
     max-width: 500px;
-    transform: rotate(360deg);
-    }
-/*---------------- --------------------aplicando animacion para resaltar formulario---------------------------------------------------------------------*/
+   estees el de sass }*/
+/*---------------- --------------------aplicando animacion para resaltar formulario---sector index------------------------------------------------------------------*/
+
+#seccion-encuentro {
+    background-color: white;
+    position: relative;
+}
+
+#contenedor-contacto {
+    margin-top: none;
+    background-color: rgb(6, 112, 199);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contenedor-formulario {
+transform: scale(1, 1);}
+
+#contenedor-formulario:hover {
+    transform: scale(2);
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------
+------------------------
+-----------------------------
+------------------------------------------
+------------------
+
+/*----------------- SECTOR CONTACTANOS -------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
+/*------seccion formulario parte contactanos--------------------*/
+
+
+#seccion-color {
+    background-color: white;
+    position: relative;
+}
+
+
+/*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
+/*#seccion-encuentro {
+    margin-top: none;
+    background-color: rgb(6, 112, 199);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+   estees el de sass }*/
+/*---------------- --------------------aplicando animacion para resaltar formulario---sector index------------------------------------------------------------------*/
+
+#seccion-color {
+    background-color: white;
+    /*position: relative;*/
+}
+
+#seccion-color {
+    /*margin-top: none;*/
+    background-color: rgb(6, 112, 199);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 10px;
+    margin: 0 auto;
+}
+
+/*#contenedor-formulario {
+transform: scale(1, 1);}
+
+#contenedor-formulario:hover {
+    transform: scale(2);
+}*/
 
 
 
-/*----------------- -----------------------------------------------------------------------------------------*/
+-------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------*/
 
 /* ---------------------------------------------------------------------------------------------------------*/
  /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
@@ -169,7 +240,7 @@ sector portafolio---------------------------------------------------------------
     width: 90%;
 }   
 
-p {
+#equipo p {
      display: none;
 } 
 
@@ -183,6 +254,7 @@ p {
 #bg-contacto {
     top: -110px;
 }
+
 
 /*----------------------------------------------PANTALLA EXTRA SM-------------------------------------------------------*/
 @media(max-widht: 576px) {
