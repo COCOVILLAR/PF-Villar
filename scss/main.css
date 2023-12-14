@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------reset css es para iniciar cualquier proyecto---------------------------------------------------------------- */
+/*-----------------------------------RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES---------------------------------------------------------------- */
 @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
 * {
   margin: 0;
@@ -7,13 +7,13 @@
   box-sizing: border-box;
 }
 
-/* -------------------------es para colocar las fuentes del codigo ---------------------------------------------------*/
+/* -------------------------FUENTES CODIGO - INCLUYE TODAS LAS SECCIONES---------------------------------------------------*/
 body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
-/* ---------------------------------MENU-------------------------------------------------------------------------------*/
+/* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
 .navbar.ggg {
   font-size: 18px;
   font-weight: bold;
@@ -25,17 +25,17 @@ body {
   font-weight: bold;
 }
 
-/* ---------------------------------------------------------CAROUSEL DE IMAGENES --------------------------------------*/
+/* ---------------------------------------------------------CAROUSEL DE IMAGENES--------------------------------------*/
 .carousel-inner {
   max-height: 640px;
 }
 
-/* ---------------------------------------------------------CAROUSEL DE IMAGENES // sector portafolio (2 carousel) --------------------------------------*/
+/* ------------------------PORTAFOLIO---------------------------------CAROUSEL DE IMAGENES // PORTAFOLIO --------------------------------------*/
 .row {
   padding-top: 20px;
 }
 
-/*-------------------------------------------------------MAPA---------------------------------------------------------*/
+/*------------------------SECTOR INICIO---MENU PRINCIPAL----------------------------MAPA---------------------------------------------------------*/
 .mapa {
   background-image: url(../pictures/pic18.png);
   width: 100%;
@@ -56,7 +56,6 @@ body {
 }
 
 /*---------------------------PARA LOS NUMEROS DE TEMP/GRADOS/DIAS DE CALOR----------------------------------------*/
-/*id*/
 #numeros-local div {
   padding: 0 20px 0 0;
   height: 48px;
@@ -74,7 +73,7 @@ body {
   margin: 0;
 }
 
-/*--------------------------------SECCION FORMULARIO-----------------------------------------------------------*/
+/*-----------MENU-----PRINICIPAL----------------SECCION FORMULARIO------MENU------------------------------------------------*/
 #bg-contacto {
   position: relative;
   top: -130px;
@@ -86,7 +85,7 @@ body {
   position: relative;
 }
 
-/*-----------------------------------------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
+/*-----------MENU------------------------------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
 #contenedor-formulario {
   margin-top: -195px;
   left: 50%;
@@ -100,7 +99,6 @@ footer {
   background: rgb(6, 112, 199);
   min-height: 200px;
 }
-
 footer p {
   color: #f3f3f3;
   text-align: center;
@@ -117,7 +115,6 @@ footer p {
 sector portafolio----------------------------------------------------------------------------
 ------------------------------PORTAFOLIO BARRA- ESTILOS ----------------------------*/
 .portafolioBarra {
-  /*class*/
   color: #3f3f3f;
 }
 
@@ -128,13 +125,8 @@ sector portafolio---------------------------------------------------------------
   padding-right: 100%;
 }
 
-/*----------formulario para contactarse -------------------------------------------------------*/
-/*------seccion formulario-------------*/
-/*#seccion-encuentro {
-    background-color: white;
-    position: relative;
-}*/
 /*--------------------------------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
+/*sector menu principal */
 /*---------------- --------------------aplicando animacion para resaltar formulario---sector index------------------------------------------------------------------*/
 #seccion-contacto {
   background-color: white;
@@ -158,13 +150,7 @@ sector portafolio---------------------------------------------------------------
   transform: scale(2);
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------
-------------------------
------------------------------
-------------------------------------------
-------------------
-
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*----------------- SECTOR CONTACTANOS -------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
 /*------seccion formulario parte contactanos--------------------*/
 #seccion-color {
@@ -173,34 +159,16 @@ sector portafolio---------------------------------------------------------------
 }
 
 /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
-/*#seccion-encuentro {
-    margin-top: none;
-    background-color: rgb(6, 112, 199);
-    background: #fbfafa;
-    border-radius: 5px;
-    max-width: 500px;
-   estees el de sass }*/
-/*---------------- --------------------aplicando animacion para resaltar formulario---sector index------------------------------------------------------------------*/
-#seccion-color {
-  background-color: white;
-  /*position: relative;*/
-}
-
+/*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
 #seccion-color {
   /*margin-top: none;*/
   background-color: rgb(6, 112, 199);
   background: #fbfafa;
   border-radius: 5px;
-  max-width: 10px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
-/*#contenedor-formulario {
-transform: scale(1, 1);}
-
-#contenedor-formulario:hover {
-    transform: scale(2);
-}*/
 /*-------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------*/
 /* ---------------------------------------------------------------------------------------------------------*/
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
