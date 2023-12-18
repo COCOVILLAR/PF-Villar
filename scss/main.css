@@ -161,7 +161,6 @@ sector portafolio---------------------------------------------------------------
 /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
 /*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
 #seccion-color {
-  /*margin-top: none;*/
   background-color: rgb(6, 112, 199);
   background: #fbfafa;
   border-radius: 5px;
@@ -169,8 +168,138 @@ sector portafolio---------------------------------------------------------------
   margin: 0 auto;
 }
 
-/*-------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------*/
-/* ---------------------------------------------------------------------------------------------------------*/
+/*----------------PROFESIONALES SECTOR PROFESIONALES----------*/
+
+
+ .img {
+    position: relative;
+    float: left;
+    margin-left: 250px; 
+}
+.tiuloperazo {
+  float: left;
+  margin-left: 25px;
+  padding-top: 56px;
+  left: 0;
+    position: relative;
+    top: -50px;
+}
+.textopro {
+    margin-left: 10px;
+    text-align: end;
+    width: 400px;
+    float: left;
+    margin-top: 40px;
+    left: -136px;
+    position: relative;
+}
+
+.joseimagen {
+  position: relative;
+  float: left;
+  margin-left: 250px; 
+  padding-top: 20px;
+}
+
+.josetitulo {
+float: left;
+margin-left: 25px;
+padding-top: 56px;
+left: 0;
+  position: relative;
+  top: -50px;
+}
+
+.josetexto {
+  margin-left: 10px;
+    text-align: end;
+    width: 387px;
+    float: left;
+    margin-top: 40px;
+    left: -252px;
+    position: relative;
+ /*  margin-left: 10px;
+  text-align: end;
+  width: 400px;
+  float: left;
+  margin-top: 40px;
+  left: -136px;
+  position: relative; */
+}
+
+.utonioimagen {
+  position: relative;
+  float: left;
+  padding-top: 20px;
+  margin-left: 250px; 
+}
+.utoniotitulo {
+float: left;
+margin-left: 25px;
+padding-top: 56px;
+left: 0;
+  position: relative;
+  top: -50px;
+}
+.utoniotexto {
+  margin-left: 10px;
+  text-align: end;
+  width: 400px;
+  float: left;
+  margin-top: 40px;
+  left: -136px;
+  position: relative;
+}
+
+
+
+
+/* .josetitulo { 
+  font-size: 1.25rem;
+    float: left;
+    padding-top: 100px
+}
+
+.joseimagen {
+  position: relative;
+  float: left;
+  margin-left: 250px;
+  padding-top: 30px;
+    padding-left: 9px;
+}
+
+.josetexto { 
+  margin-left: 10px;
+    text-align: justify;
+    width: 400px;
+    float: left;
+    margin-top: 21px;
+}
+
+.utonioimagen { 
+  position: relative;
+  float: left;
+  margin-left: 250px;
+  padding-top: 30px;
+    padding-left: 9px;
+}
+
+.utoniotitulo {
+  font-size: 1.25rem;
+  float: left;
+  padding-top: 100px
+}
+
+.utoniotexto {
+  margin-left: 10px;
+    text-align: justify;
+    width: 400px;
+    float: left;
+    margin-top: 21px;
+}
+
+  */
+
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
 @media (max-width: 768px) {
   .portafolioBarra {
