@@ -162,24 +162,24 @@ sector portafolio---------------------------------------------------------------
 /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
 /*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
 #seccion-color {
-  background-color: rgb(6, 112, 199);
-  background: #fbfafa;
-  border-radius: 5px;
-  max-width: 500px;
-  margin: 0 auto;
+     background-color: rgb(6, 112, 199);
+     background: #fbfafa;
+     border-radius: 5px;
+     max-width: 500px;
+     margin: 0 auto;
 }
 
 /*----------------PROFESIONALES SECTOR PROFESIONALES----metodologia - vem -  sass------*/
 
 .section {
       background-color: white;
-.section__img {
+      & &__img {
     position: relative;
     float: left;
     margin-left: 250px; 
 }
 
-.section__tiulo {
+& &__tiulo {
   float: left;
   margin-left: 25px;
   padding-top: 56px;
@@ -187,7 +187,7 @@ sector portafolio---------------------------------------------------------------
     position: relative;
     top: -50px;
 }
-.section__texto {
+& &__texto {
     margin-left: 10px;
     text-align: end;
     float: left;
@@ -198,14 +198,14 @@ sector portafolio---------------------------------------------------------------
   }
 
 
-.section__picj {
+& &__picj {
   position: relative;
   float: left;
   margin-left: 250px; 
   padding-top: 20px;
 }
 
-.section__tituloj {
+& &__tituloj {
 float: left;
 margin-left: 25px;
 padding-top: 56px;
@@ -214,7 +214,7 @@ left: 0;
   top: -50px;
 }
 
-.section__textoj {
+& &__textoj {
     margin-left: 10px;
     text-align: end;
     float: left;
@@ -224,13 +224,13 @@ left: 0;
     width: 387px;
 }
 
-.section__picu{
+& &__picu{
   position: relative;
   float: left;
   padding-top: 20px;
   margin-left: 250px; 
 }
-.section__titulou {
+& &__titulou {
 float: left;
 margin-left: 25px;
 padding-top: 56px;
@@ -238,7 +238,7 @@ left: 0;
   position: relative;
   top: -50px;
 }
-.section__textou {
+& &__textou {
   margin-left: 10px;
   text-align: end;
   width: 400px;
