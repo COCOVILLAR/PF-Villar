@@ -15,12 +15,13 @@ body {
 
 /* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
 /* .navbar.ggg { */
-.navbar__supestilo {
-  font-size: 18px;
-  font-weight: bold;
- color: #3f3f3f; 
+    .navbar__supestilo {
+     &__supestilo {
+        font-size: 18px;
+        font-weight: bold;
+        color: #3f3f3f; 
+    }
 }
-
 .navbar-toggler.aaa {
   font-size: 18px;
   font-weight: bold;
