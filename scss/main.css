@@ -14,7 +14,8 @@ body {
 }
 
 /* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
-.navbar.ggg {
+/* .navbar.ggg { */
+.navbar__supestilo {
   font-size: 18px;
   font-weight: bold;
   color: #3f3f3f;
@@ -99,6 +100,7 @@ footer {
   background: rgb(6, 112, 199);
   min-height: 200px;
 }
+
 footer p {
   color: #f3f3f3;
   text-align: center;
@@ -168,80 +170,70 @@ sector portafolio---------------------------------------------------------------
   margin: 0 auto;
 }
 
-/*----------------PROFESIONALES SECTOR PROFESIONALES----------*/
-
-
- .img {
-    position: relative;
-    float: left;
-    margin-left: 250px; 
+/*----------------PROFESIONALES SECTOR PROFESIONALES----metodologia - vem -  sass------*/
+.section {
+  background-color: white;
 }
-.tiuloperazo {
+.section .section__img {
+  position: relative;
+  float: left;
+  margin-left: 250px;
+}
+.section .section__tiulo {
   float: left;
   margin-left: 25px;
   padding-top: 56px;
   left: 0;
-    position: relative;
-    top: -50px;
-}
-.textopro {
-    margin-left: 10px;
-    text-align: end;
-    width: 400px;
-    float: left;
-    margin-top: 40px;
-    left: -136px;
-    position: relative;
-}
-
-.joseimagen {
-  position: relative;
-  float: left;
-  margin-left: 250px; 
-  padding-top: 20px;
-}
-
-.josetitulo {
-float: left;
-margin-left: 25px;
-padding-top: 56px;
-left: 0;
   position: relative;
   top: -50px;
 }
-
-.josetexto {
+.section .section__texto {
   margin-left: 10px;
-    text-align: end;
-    width: 387px;
-    float: left;
-    margin-top: 40px;
-    left: -252px;
-    position: relative;
- /*  margin-left: 10px;
   text-align: end;
-  width: 400px;
   float: left;
   margin-top: 40px;
   left: -136px;
-  position: relative; */
+  position: relative;
+  width: 400px;
 }
-
-.utonioimagen {
+.section .section__picj {
   position: relative;
   float: left;
+  margin-left: 250px;
   padding-top: 20px;
-  margin-left: 250px; 
 }
-.utoniotitulo {
-float: left;
-margin-left: 25px;
-padding-top: 56px;
-left: 0;
+.section .section__tituloj {
+  float: left;
+  margin-left: 25px;
+  padding-top: 56px;
+  left: 0;
   position: relative;
   top: -50px;
 }
-.utoniotexto {
+.section .section__textoj {
+  margin-left: 10px;
+  text-align: end;
+  float: left;
+  margin-top: 40px;
+  left: -252px;
+  position: relative;
+  width: 387px;
+}
+.section .section__picu {
+  position: relative;
+  float: left;
+  padding-top: 20px;
+  margin-left: 250px;
+}
+.section .section__titulou {
+  float: left;
+  margin-left: 25px;
+  padding-top: 56px;
+  left: 0;
+  position: relative;
+  top: -50px;
+}
+.section .section__textou {
   margin-left: 10px;
   text-align: end;
   width: 400px;
@@ -250,55 +242,6 @@ left: 0;
   left: -136px;
   position: relative;
 }
-
-
-
-
-/* .josetitulo { 
-  font-size: 1.25rem;
-    float: left;
-    padding-top: 100px
-}
-
-.joseimagen {
-  position: relative;
-  float: left;
-  margin-left: 250px;
-  padding-top: 30px;
-    padding-left: 9px;
-}
-
-.josetexto { 
-  margin-left: 10px;
-    text-align: justify;
-    width: 400px;
-    float: left;
-    margin-top: 21px;
-}
-
-.utonioimagen { 
-  position: relative;
-  float: left;
-  margin-left: 250px;
-  padding-top: 30px;
-    padding-left: 9px;
-}
-
-.utoniotitulo {
-  font-size: 1.25rem;
-  float: left;
-  padding-top: 100px
-}
-
-.utoniotexto {
-  margin-left: 10px;
-    text-align: justify;
-    width: 400px;
-    float: left;
-    margin-top: 21px;
-}
-
-  */
 
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
 @media (max-width: 768px) {
