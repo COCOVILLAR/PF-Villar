@@ -1,4 +1,6 @@
-@charset "UTF-8";
+
+// este comentario es para informar que este doc es el sass en algunos sectores tenes tecnologia vem.
+
 /*-----------------------------------RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES---------------------------------------------------------------- */
 @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
 * {
@@ -12,6 +14,16 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
+
+/* VARIABLES*/
+$colorPrincipal: rgb(6, 112, 199); 
+$colorSecundario: white;
+$colorBase: grey;
+FuentePrincipal: "Montserrat", sans-serif;
+/*FuenteSecundaria:*/
+$mobile: 570px; 
+$tablet: 768px;
+$desktop: 1024px;
 
 /* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
 /* .navbar.ggg { */
@@ -249,15 +261,41 @@ left: 0;
   position: relative;
 }
 }
+// no se compila // esto es sector otros servicios
+//portafolio
 
+     @media (max-width: $tablet) {
+.portafolioBarra {
+    width: 70%;
+    width: 100%;
+    text-align: center;
+    } 
+}
+//seguimos en portafolio este es para celulares
+@media (min-width: $mobile) {
+.portafolioBarra {
+    width: 25%;
+    height: 55%;
+    text-align: center;
+}
+}
+//seguimos en portafolio modo desktop 
+@media (max-width: $desktop) {
+    .portafolioBarra {
+        width: 65%;
+        height: 100%;
+        text-align: center; 
+    }
+}
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
   .portafolioBarra {
     width: 70%;
     width: 100%;
     text-align: center;
   }
-}
+} */
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM----------------------------------------------*/
 @media (max-width: 768px) {
   #equipo {
