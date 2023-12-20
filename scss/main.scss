@@ -195,23 +195,6 @@ sector portafolio---------------------------------------------------------------
   transform: scale(2);
 }
 
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*----------------- SECTOR CONTACTANOS -------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
-/*------seccion formulario parte contactanos--------------------*/
-#seccion-color {
-  background-color: white;
-  position: relative;
-}
-
-/*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
-/*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
-#seccion-color {
-     background-color: rgb(6, 112, 199);
-     background: #fbfafa;
-     border-radius: 5px;
-     max-width: 500px;
-     margin: 0 auto;
-}
 
 /*----------------PROFESIONALES SECTOR PROFESIONALES----metodologia - vem -  sass------*/
 
@@ -318,8 +301,59 @@ left: 0;
         text-align: center; 
     }
 }
+/*PASAMOS A CONTACTO TODO SECTOR CONTACTO*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------- SECTOR CONTACTANOS -------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
+/*------seccion formulario parte contactanos--------------------*/
+#seccion-color {
+    background-color: white;
+    position: relative;
+  }
+  
+  /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
+  /*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
+  #seccion-color {
+       background-color: rgb(6, 112, 199);
+       background: white;
+       border-radius: 5px;
+       max-width: 611px;
+       margin: 0 auto;
+  }
+  
+//pasamos a sector contacto //vamos a colocar medias queries modo compu
+@media (max-width: $desktop) {
+#seccion-color {
+    max-width: 611px;
+    margin: 0 auto;
+   /*  width: 98%;
+    height: 66%;
+    text-align: center */
+}
+}
 
-
+ // celu media queries sector contacto 
+@media (min-width: $mobile) {
+#seccion-color {
+        width: 25%;
+        height: 195%;
+        text-align: center;
+.test  {
+    display: none;
+}
+}
+} 
+//tablet medias queries sector contacto 
+@media (max-width: $tablet) { 
+    #seccion-color {
+        width: 70%;
+        width: 100%;
+        text-align: center;  
+   .test { width: 70%;
+    width: 100%;
+    text-align: center;  
+}
+}  
+}
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
 
 /* @media (max-width: 768px) {
