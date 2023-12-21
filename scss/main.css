@@ -306,6 +306,12 @@ sector portafolio---------------------------------------------------------------
     /*  width: 98%;
      height: 66%;
      text-align: center */
+    /* .bi {
+        text-align: center;
+    .contacto__iconos {
+        text-align: center;
+    }
+    } */
   }
 }
 @media (min-width: 570px) {
