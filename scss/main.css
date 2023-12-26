@@ -14,11 +14,6 @@ body {
 }
 
 /* VARIABLES*/
-/*$colorPrincipal: rgb(6, 112, 199); 
-$colorSecundario: white;
-$colorBase: grey;*/
-/*FuentePrincipal: "Montserrat", sans-serif;
-/*FuenteSecundaria:*/
 /* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
 /* .navbar.ggg { */
 .navbar__supestilo__supestilo {
@@ -33,38 +28,12 @@ $colorBase: grey;*/
 }
 
 /* ---------------------------------------------------------CAROUSEL DE IMAGENES--------------------------------------*/
-/* .carousel-inner {
-  max-height: 440px;
-}  
- .carousel-inner {
-max-height: 440px;
-}
-
-.carousel-inner-portafolio {
-   height: 500px;
-   width: 500px; 
-   text-align: center;
-   max-height:  450px;
- } .carousel-inner , .carousel-item , .carousel-item */
-/* #carouselExampleIndicators {
-    .carouselultimaprueba {
-    max-height: 440px;
-    width: 100%;
-    }
-} */
-/* .carousel-portafolio {
-    max-width: 100%;
-  max-height: 419px; */
-/* #carouselExampleIndicators , .carouselinner , .carousel-item , */
 .carousel-portafolio {
   width: 100%;
   max-width: 715px;
   margin: 0 auto;
 }
 
-/*  max-width: 715px;
- max-height: 419px; */
-/* max-width: 400px; */
 /* ------------------------PORTAFOLIO---------------------------------CAROUSEL DE IMAGENES // PORTAFOLIO --------------------------------------*/
 .row {
   padding-top: 20px;
@@ -303,15 +272,6 @@ sector portafolio---------------------------------------------------------------
   #seccion-color {
     max-width: 611px;
     margin: 0 auto;
-    /*  width: 98%;
-     height: 66%;
-     text-align: center */
-    /* .bi {
-        text-align: center;
-    .contacto__iconos {
-        text-align: center;
-    }
-    } */
   }
 }
 @media (min-width: 570px) {
@@ -337,13 +297,6 @@ sector portafolio---------------------------------------------------------------
   }
 }
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
-/* @media (max-width: 768px) {
-  .portafolioBarra {
-    width: 70%;
-    width: 100%;
-    text-align: center;
-  }
-} */
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM----------------------------------------------*/
 @media (max-width: 768px) {
   #equipo {

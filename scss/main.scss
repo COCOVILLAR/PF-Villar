@@ -1,6 +1,4 @@
 
-// este comentario es para informar que este doc es el sass en algunos sectores tenes tecnologia vem.
-
 /*-----------------------------------RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES---------------------------------------------------------------- */
 @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
 * {
@@ -16,11 +14,6 @@ body {
 }
 
 /* VARIABLES*/
-/*$colorPrincipal: rgb(6, 112, 199); 
-$colorSecundario: white;
-$colorBase: grey;*/
-/*FuentePrincipal: "Montserrat", sans-serif;
-/*FuenteSecundaria:*/
 $mobile: 570px; 
 $tablet: 768px;
 $desktop: 1024px;
@@ -40,40 +33,12 @@ $desktop: 1024px;
 }
 
 /* ---------------------------------------------------------CAROUSEL DE IMAGENES--------------------------------------*/
-/* .carousel-inner {
-  max-height: 440px;
-}  
- .carousel-inner {
-max-height: 440px;
-}
-
-.carousel-inner-portafolio {
-   height: 500px;
-   width: 500px; 
-   text-align: center;
-   max-height:  450px;
- } .carousel-inner , .carousel-item , .carousel-item */
-
-/* #carouselExampleIndicators {
-    .carouselultimaprueba {
-    max-height: 440px;
-    width: 100%;
-    }
-} */
-
-/* .carousel-portafolio {
-    max-width: 100%;
-  max-height: 419px; */
-  
-  /* #carouselExampleIndicators , .carouselinner , .carousel-item , */ 
   .carousel-portafolio {
     width: 100%;
     max-width: 715px;
     margin: 0 auto;
   }
-   /*  max-width: 715px;
-    max-height: 419px; */
-/* max-width: 400px; */
+
 
 /* ------------------------PORTAFOLIO---------------------------------CAROUSEL DE IMAGENES // PORTAFOLIO --------------------------------------*/
 .row {
@@ -325,15 +290,7 @@ left: 0;
 #seccion-color {
     max-width: 611px;
     margin: 0 auto;
-   /*  width: 98%;
-    height: 66%;
-    text-align: center */
- /* .bi {
-    text-align: center;
-.contacto__iconos {
-    text-align: center;
-}
-} */
+
 }
 }
 
@@ -362,13 +319,7 @@ left: 0;
 }
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
 
-/* @media (max-width: 768px) {
-  .portafolioBarra {
-    width: 70%;
-    width: 100%;
-    text-align: center;
-  }
-} */
+
 /* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM----------------------------------------------*/
 @media (max-width: 768px) {
   #equipo {
@@ -405,3 +356,24 @@ left: 0;
     padding-top: 50px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
