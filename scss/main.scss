@@ -104,23 +104,23 @@ $desktop: 1024px;
   max-width: 500px;
 }
 
-/*-----------------------------------------------PIE DE LA PAGINA----------------------------------------------------*/
-footer {
+/*-----------------------------------------------PIE DE LA PAGINA-----MENU PRINCIPAL--------------------------------------------*/
+/* footer {
   background: rgb(6, 112, 199);
-  min-height: 200px;
-}
-footer p {
+  /* min-height: 200px; */
+/* } */
+/* footer p {
   color: #f3f3f3;
   text-align: center;
-}
-
+} */
+/* 
 #iconos {
   text-align: center;
   font-size: 26px;
   padding: 0 8px;
   color: white;
-}
-
+} */
+ */
 /*-------------------------------------------------------------------------------------------
 sector portafolio----------------------------------------------------------------------------
 ------------------------------PORTAFOLIO BARRA- ESTILOS ----------------------------*/
@@ -274,7 +274,10 @@ left: 0;
     background-color: white;
     position: relative;
   }
-  
+/*   .test {
+    padding-bottom: 100px;
+    background-color: rgb(6, 112, 199);
+  } */
   /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
   /*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
   #seccion-color {
@@ -284,16 +287,25 @@ left: 0;
        max-width: 611px;
        margin: 0 auto;
   }
+
+  /*---sector contacto---es para agregar footer*/
+ /*  .footer__cont {
+    background: rgb(6, 112, 199);
+    min-height: 142px;
+  .p__contacto {
+    color: #f3f3f3;
+    text-align: center;
+  }
+  } */
+ 
   
 //pasamos a sector contacto //vamos a colocar medias queries modo compu
 @media (max-width: $desktop) {
 #seccion-color {
     max-width: 611px;
     margin: 0 auto;
-
 }
 }
-
  // celu media queries sector contacto 
 @media (min-width: $mobile) {
 #seccion-color {
