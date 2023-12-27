@@ -1,8 +1,9 @@
 /*----se llama a las variables--------------*/
-@import "vars"; 
-
-/*---RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES-------------------------------------------------- */
+@import 'vars';
+@import 'varsfuente';
 @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
+/*---RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES-------------------------------------------------- */
+/* @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap"); */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@
 
 /* -------------------------FUENTES CODIGO - INCLUYE TODAS LAS SECCIONES---------------------------------------------------*/
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   overflow-x: hidden;
 }
 
@@ -102,31 +103,29 @@ body {
 }
 
 /*-----------------------------------------------PIE DE LA PAGINA-----MENU PRINCIPAL--------------------------------------------*/
-/* footer {
+ footer {
   background: rgb(6, 112, 199);
-  /* min-height: 200px; */
-/* } */
-/* footer p {
+   min-height: 100px;
+}
+footer p {
   color: #f3f3f3;
   text-align: center;
-} */
-/* 
+} 
+ 
 #iconos {
   text-align: center;
   font-size: 26px;
   padding: 0 8px;
   color: white;
-} */
- */
-/*-------------------------------------------------------------------------------------------
-sector portafolio----------------------------------------------------------------------------
+} 
+/*----------------- portafolio----------------------------------------------------------------------------
 ------------------------------PORTAFOLIO BARRA- ESTILOS ----------------------------*/
 .portafolioBarra {
   color: #3f3f3f;
 }
 
 .portafolioBarra {
-  font-family: "Montserrat", sans-serif;
+  font-family: $font-principal;
   font-size: 28px;
   font-weight: bold;
   padding-right: 100%;
