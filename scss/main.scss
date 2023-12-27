@@ -1,5 +1,7 @@
+/*----se llama a las variables--------------*/
+@import "vars"; 
 
-/*-----------------------------------RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES---------------------------------------------------------------- */
+/*---RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES-------------------------------------------------- */
 @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
 * {
   margin: 0;
@@ -12,11 +14,6 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
-
-/* VARIABLES*/
-$mobile: 570px; 
-$tablet: 768px;
-$desktop: 1024px;
 
 /* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
 /* .navbar.ggg { */
