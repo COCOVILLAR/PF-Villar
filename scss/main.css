@@ -1,5 +1,6 @@
 /*----se llama a las variables--------------*/
 /* VARIABLES*/
+/*Colores*/
 /*variables fuente*/
 /* @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap"); */
 /* -------media tablet--INDEX--------------------------------------------*/
@@ -206,21 +207,29 @@
   }
 }
 /*---RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES-------------------------------------------------- */
-/* @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap"); */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*-------------------mixins-------------*/
+.btn-base {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2 px solid white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: gray;
+}
+
 /* -------------------------FUENTES CODIGO - INCLUYE TODAS LAS SECCIONES---------------------------------------------------*/
 body {
-  /* font-family: "Montserrat", sans-serif; */
   overflow-x: hidden;
 }
 
 /* ---------------------------------MENU INCLUYE TODAS LAS SECCIONES-------------------------------------------------------------------------------*/
-/* .navbar.ggg { */
 .navbar__supestilo__supestilo {
   font-size: 18px;
   font-weight: bold;
@@ -260,7 +269,6 @@ body {
 
 .wrapper {
   width: 72%;
-  /*   margin-right: 100px; */
   padding-top: 150px;
 }
 
@@ -441,10 +449,6 @@ footer p {
   position: relative;
 }
 
-/*   .test {
-    padding-bottom: 100px;
-    background-color: rgb(6, 112, 199);
-  } */
 /*-------------------------------CONTACTANOS----------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
 /*---------------- --------------------SECCION PARA CONTACTANOS ACA SE VEN LOS ESTILOS DEL FORMULARIO-----------------------------------------------------------------*/
 #seccion-color {
@@ -453,14 +457,4 @@ footer p {
   border-radius: 5px;
   max-width: 611px;
   margin: 0 auto;
-}
-
-/*---sector contacto---es para agregar footer*/
-/*  .footer__cont {
-   background: rgb(6, 112, 199);
-   min-height: 142px;
- .p__contacto {
-   color: #f3f3f3;
-   text-align: center;
- }
- } *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
