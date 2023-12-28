@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*-------------------mixins-------------*/
+/*-------------------mixins------sector contacto-------*/
 @mixin btnWeb {
 display: inline-block;
 padding: 10px 30px;
@@ -149,6 +149,10 @@ footer p {
 /*--------------------------------CONTENEDOR DEL FORMULARIO-----------------------------------------------*/
 /*sector menu principal */
 /*---------------- --------------------aplicando animacion para resaltar formulario---sector index------------------------------------------------------------------*/
+.title {
+  text-decoration: none;
+}
+
 #seccion-contacto {
   background-color: white;
   position: relative;
