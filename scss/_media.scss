@@ -1,0 +1,212 @@
+
+    /* -------media tablet--INDEX--------------------------------------------*/
+    @media (max-width: $tablet) {
+      #equipo {
+        width: 90%;
+      }
+      #equipo p {
+        display: none;
+      }
+      .servicio-fila {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    #bg-contacto {
+      top: -110px;
+    }
+    .container-fluid {
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .footer {
+        width: 80px;
+    }
+    .iconos {
+        width: 100%;
+        justify-content: center;
+      }
+      @media (min-widht: $mobile) {    
+        #equipo {
+           width: 100%;
+           margin: auto;
+          
+         }
+         #equipo p {
+           width: 100%;
+           margin: auto;
+           display: none;
+         }
+         .servicio-fila {
+           width: 60%;
+           text-align: center;
+         }
+       }
+       #bg-contacto {
+         top: -110px;
+       }
+       .footer {
+        width: 100%;
+        margin: auto;
+      
+    }
+    .container-fluid {
+      text-align: center;
+      justify-content: center;
+    }
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .iconos {
+        width: 60%;
+        justify-content: center;
+      }
+      .wrapper {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        width: 72px;
+      }
+
+  /*----------Vista en desktop/index/inicio------*/
+  @media (max-width: $desktop) {
+    #equipo {
+        width: 100%;
+        margin: auto;
+      
+      }
+      #equipo p {
+        width: 100%;
+        margin: auto;
+      
+      }
+      .servicio-fila {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+    }
+    #bg-contacto {
+      top: -110px;
+    }
+  
+    .footer {
+        width: 100%;
+        margin: auto;
+  
+    }
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .iconos {
+        width: 60%;
+        justify-content: center;
+      }
+      .wrapper {
+        width: 100%;
+        margin: auto;
+      }
+/*---------------*/
+/*----------------------------------*/
+//pasamos a sector contacto //vamos a colocar medias queries modo compu
+  
+@media (max-width: $desktop) {
+  #seccion-color {
+      max-width: 611px;
+      margin: 0 auto;
+  } 
+      .footer {
+          min-height: 100px;
+      }
+      .wrapper {
+          width: 72%;
+            padding-top: 150px;
+        }
+}
+
+// celu media queries sector contacto 
+@media (min-width: $mobile) {
+  #seccion-color {
+    width: $tablet / (2);
+          text-align: center;
+  }
+
+      .footer {
+        width: $tablet / (2);
+              text-align: center;
+      }
+      .wrapper {
+        width: $tablet / (2);
+              text-align: center;
+      }
+}
+//tablet medias queries sector contacto 
+@media (max-width: $tablet) { 
+  #seccion-color {
+    width: $mobile * (2);
+          text-align: center;
+  }
+
+      .footer {
+        width: $mobile * (2);
+              text-align: center;
+      }
+      .wrapper {
+        width: $mobile * (2);
+              text-align: center;
+      }
+}
+
+//portafolio
+
+@media (max-width: $tablet) {
+  .container-fluid {
+    text-align: center;
+      justify-content: center;
+    
+      .carousel-portafolio {
+        text-align: center;
+      justify-content: center;
+      }
+      } 
+  }
+  //seguimos en portafolio este es para celulares
+  @media (min-width: $mobile) {
+  .container-fluid {
+    text-align: center;
+      justify-content: center;
+  }
+  }
+  //seguimos en portafolio modo desktop 
+  @media (max-width: $desktop) {
+    .carousel-portafolio {
+    max-width: 715px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  }
+/*media queries--- sector otros servicios*/
+@media (min-width: $mobile) {
+  .container-fluid {
+    text-align: center;
+      justify-content: center;
+  }
+  }
+
+  @media (min-width: $desktop) {
+    .container-fluid {
+      text-align: center;
+        justify-content: center;
+    }
+    }
+     
+    @media (min-width: $tablet) {
+      .container-fluid {
+        text-align: center;
+          justify-content: center;
+      }
+      }
+

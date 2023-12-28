@@ -1,7 +1,8 @@
 /*----se llama a las variables--------------*/
 @import 'vars';
 @import 'varsfuente';
-@import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
+@import 'media';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,600&display=swap");
 /*---RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES-------------------------------------------------- */
 /* @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap"); */
 * {
@@ -59,10 +60,10 @@ body {
 
 .wrapper {
   width: 72%;
-  margin-right: 100px;
+/*   margin-right: 100px; */
   padding-top: 150px;
 }
-
+ 
 /*---------------------------PARA LOS NUMEROS DE TEMP/GRADOS/DIAS DE CALOR----------------------------------------*/
 #numeros-local div {
   padding: 0 20px 0 0;
@@ -236,32 +237,7 @@ left: 0;
   position: relative;
 }
 }
-// no se compila // esto es sector otros servicios
-//portafolio
 
-     @media (max-width: $tablet) {
-.portafolioBarra {
-    width: 70%;
-    width: 100%;
-    text-align: center;
-    } 
-}
-//seguimos en portafolio este es para celulares
-@media (min-width: $mobile) {
-.portafolioBarra {
-    width: 25%;
-    height: 55%;
-    text-align: center;
-}
-}
-//seguimos en portafolio modo desktop 
-@media (max-width: $desktop) {
-    .portafolioBarra {
-        width: 65%;
-        height: 65%;
-        text-align: center; 
-    }
-}
 /*PASAMOS A CONTACTO TODO SECTOR CONTACTO*/
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*----------------- SECTOR CONTACTANOS -------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
@@ -295,75 +271,6 @@ left: 0;
   } */
  
   
-//pasamos a sector contacto //vamos a colocar medias queries modo compu
-@media (max-width: $desktop) {
-#seccion-color {
-    max-width: 611px;
-    margin: 0 auto;
-}
-}
- // celu media queries sector contacto 
-@media (min-width: $mobile) {
-#seccion-color {
-        width: 25%;
-        height: 195%;
-        text-align: center;
-.test  {
-    display: none;
-}
-}
-} 
-//tablet medias queries sector contacto 
-@media (max-width: $tablet) { 
-    #seccion-color {
-        width: 70%;
-        width: 100%;
-        text-align: center;  
-   .test { width: 70%;
-    width: 100%;
-    text-align: center;  
-}
-}  
-}
-/* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
-
-
-/* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM----------------------------------------------*/
-@media (max-width: 768px) {
-  #equipo {
-    width: 90%;
-  }
-  #equipo p {
-    display: none;
-  }
-  .servicio-fila {
-    width: 100%;
-    text-align: center;
-  }
-}
-#bg-contacto {
-  top: -110px;
-}
-
-/*----------------------------------------------PANTALLA EXTRA SM-------------------------------------------------------*/
-@media (max-widht: 576px) {
-  .icono-wrap {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-/*---------------------------------MEDIA PANTALLA ANCHA---------------------------------------------------------------*/
-@media (max-widht: 1200px) {
-  #local {
-    flex-wrap: wrap;
-    padding-top: 30px;
-  }
-  #local .wrapper {
-    width: 90%;
-    margin: auto;
-    padding-top: 50px;
-  }
-}
 
 
 

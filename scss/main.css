@@ -1,9 +1,210 @@
-@charset "UTF-8";
 /*----se llama a las variables--------------*/
 /* VARIABLES*/
 /*variables fuente*/
 /* @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap"); */
-@import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap");
+/* -------media tablet--INDEX--------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@1,600&display=swap");
+@media (max-width: 768px) {
+  #equipo {
+    width: 90%;
+  }
+  #equipo p {
+    display: none;
+  }
+  .servicio-fila {
+    width: 100%;
+    text-align: center;
+  }
+}
+#bg-contacto {
+  top: -110px;
+}
+
+.container-fluid {
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 80px;
+}
+
+.iconos {
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-widht: 570px) {
+  #equipo {
+    width: 100%;
+    margin: auto;
+  }
+  #equipo p {
+    width: 100%;
+    margin: auto;
+    display: none;
+  }
+  .servicio-fila {
+    width: 60%;
+    text-align: center;
+  }
+}
+#bg-contacto {
+  top: -110px;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+}
+
+.container-fluid {
+  text-align: center;
+  justify-content: center;
+}
+
+.icono-wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.iconos {
+  width: 60%;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  width: 72px;
+}
+
+/*----------Vista en desktop/index/inicio------*/
+@media (max-width: 1024px) {
+  #equipo {
+    width: 100%;
+    margin: auto;
+  }
+  #equipo p {
+    width: 100%;
+    margin: auto;
+  }
+  .servicio-fila {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+}
+#bg-contacto {
+  top: -110px;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+}
+
+.icono-wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.iconos {
+  width: 60%;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+/*---------------*/
+/*----------------------------------*/
+@media (max-width: 1024px) {
+  #seccion-color {
+    max-width: 611px;
+    margin: 0 auto;
+  }
+  .footer {
+    min-height: 100px;
+  }
+  .wrapper {
+    width: 72%;
+    padding-top: 150px;
+  }
+}
+@media (min-width: 570px) {
+  #seccion-color {
+    width: 384px;
+    text-align: center;
+  }
+  .footer {
+    width: 384px;
+    text-align: center;
+  }
+  .wrapper {
+    width: 384px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #seccion-color {
+    width: 1140px;
+    text-align: center;
+  }
+  .footer {
+    width: 1140px;
+    text-align: center;
+  }
+  .wrapper {
+    width: 1140px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .container-fluid {
+    text-align: center;
+    justify-content: center;
+  }
+  .container-fluid .carousel-portafolio {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 570px) {
+  .container-fluid {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .carousel-portafolio {
+    max-width: 715px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+/*media queries--- sector otros servicios*/
+@media (min-width: 570px) {
+  .container-fluid {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .container-fluid {
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    text-align: center;
+    justify-content: center;
+  }
+}
 /*---RESETEO PARA DEJAR EN CERO YA QUE EL NAVEGADOR TRAE CONFIGURACIONES-------------------------------------------------- */
 /* @import url("https: //fonts.googleapis.com/css2? family= Montserrat:wght@300 & family= Open+Sans:ital,wght@1,600 & display=swap"); */
 * {
@@ -59,7 +260,7 @@ body {
 
 .wrapper {
   width: 72%;
-  margin-right: 100px;
+  /*   margin-right: 100px; */
   padding-top: 150px;
 }
 
@@ -231,27 +432,6 @@ footer p {
   position: relative;
 }
 
-@media (max-width: 768px) {
-  .portafolioBarra {
-    width: 70%;
-    width: 100%;
-    text-align: center;
-  }
-}
-@media (min-width: 570px) {
-  .portafolioBarra {
-    width: 25%;
-    height: 55%;
-    text-align: center;
-  }
-}
-@media (max-width: 1024px) {
-  .portafolioBarra {
-    width: 65%;
-    height: 65%;
-    text-align: center;
-  }
-}
 /*PASAMOS A CONTACTO TODO SECTOR CONTACTO*/
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*----------------- SECTOR CONTACTANOS -------------------sector contactanos formulario para contactarse -------------------------------------------------------*/
@@ -283,69 +463,4 @@ footer p {
    color: #f3f3f3;
    text-align: center;
  }
- } */
-@media (max-width: 1024px) {
-  #seccion-color {
-    max-width: 611px;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 570px) {
-  #seccion-color {
-    width: 25%;
-    height: 195%;
-    text-align: center;
-  }
-  #seccion-color .test {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  #seccion-color {
-    width: 70%;
-    width: 100%;
-    text-align: center;
-  }
-  #seccion-color .test {
-    width: 70%;
-    width: 100%;
-    text-align: center;
-  }
-}
-/* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM------sector portafolio----------------------------------------*/
-/* -------------------------------------------MEDIA PARA PANTALLA PEQUEÑA SM----------------------------------------------*/
-@media (max-width: 768px) {
-  #equipo {
-    width: 90%;
-  }
-  #equipo p {
-    display: none;
-  }
-  .servicio-fila {
-    width: 100%;
-    text-align: center;
-  }
-}
-#bg-contacto {
-  top: -110px;
-}
-
-/*----------------------------------------------PANTALLA EXTRA SM-------------------------------------------------------*/
-@media (max-widht: 576px) {
-  .icono-wrap {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-/*---------------------------------MEDIA PANTALLA ANCHA---------------------------------------------------------------*/
-@media (max-widht: 1200px) {
-  #local {
-    flex-wrap: wrap;
-    padding-top: 30px;
-  }
-  #local .wrapper {
-    width: 90%;
-    margin: auto;
-    padding-top: 50px;
-  }
-}/*# sourceMappingURL=main.css.map */
+ } *//*# sourceMappingURL=main.css.map */
