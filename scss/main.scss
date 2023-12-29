@@ -166,15 +166,14 @@ footer p {
   max-width: 500px;
   margin: 0 auto;
 }
-
-#seccion-contacto {
-  transform: scale(1, 1);
+#contenedor-formulario{
+height: 100px;
+transition: height 1.5s;
+/*prop duracion*/
 }
-
-#seccion-contacto:hover {
-  transform: scale(2);
-}
-
+#contenedor-formulario :hover{ 
+height: 100px;
+} 
 
 /*----------------PROFESIONALES SECTOR PROFESIONALES----metodologia - vem -  sass------*/
 
